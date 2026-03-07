@@ -1,0 +1,24 @@
+identity: # 工具供应商的基本信息
+  author: Soyoger # 作者
+  name: demo # 名称，唯一，不允许和其他供应商重名
+  label: # 标签，用于前端展示
+    en_US: demo # 英文标签
+    zh_Hans: 示例工具 # 中文标签
+  description: # 描述，用于前端展示
+    en_US: demo # 英文描述
+    zh_Hans: 示例工具 # 中文描述
+  icon: icon.svg # 图标，需要放置在当前模块的_assets文件夹下
+credentials_for_provider: # 凭据密钥字段
+  demo_api_key: # API密钥字段名称
+    type: secret-input # 凭据字段类型
+    required: true # 是否必填
+    label: # 凭据字段标签
+      en_US: demo API key # 英文标签
+      zh_Hans: 示例工具 API key # 中文标签
+    placeholder: # 凭据字段占位符
+      en_US: Please input your Demo API key # 英文占位符
+      zh_Hans: 请输入你的 示例工具 API key # 中文占位符
+    help: # 凭据字段帮助文本
+      en_US: Get your Demo API key # 英文帮助文本
+      zh_Hans: 获取你的 Demo API key # 中文帮助文本
+    url: https://localhost/manage-api-key # 凭据字段帮助链接，替换成自己的URL

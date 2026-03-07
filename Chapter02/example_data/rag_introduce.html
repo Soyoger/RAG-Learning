@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAG 介绍</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #555;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>检索增强生成 (RAG) 介绍</h1>
+        <p>检索增强生成（Retrieval-Augmented Generation，简称RAG）是一种结合信息检索和自然语言生成技术的创新方法。RAG的核心思想是通过检索外部知识库中的相关信息来增强生成模型的回答能力，从而提高生成文本的准确性和相关性。</p>
+
+        <h2>RAG 的主要特点</h2>
+        <ul>
+            <li><strong>多模态对齐：</strong>RAG能够同时处理图像和文本，将它们映射到同一个向量空间中。</li>
+            <li><strong>高效检索：</strong>通过计算文本和图像向量的相似度，可以快速检索出与文本描述最匹配的图像。</li>
+            <li><strong>广泛应用：</strong>RAG在图像分类、图像生成、图像检索等多个领域都有应用。</li>
+        </ul>
+
+        <h2>RAG 的应用场景</h2>
+        <p>基于RAG的系统在多个领域都有广泛应用：</p>
+        <ul>
+            <li><strong>电商平台：</strong>通过文本描述快速检索商品图片，提升用户购物体验。</li>
+            <li><strong>媒体和内容管理：</strong>根据文本描述查找相关图片，方便内容创作和管理。</li>
+            <li><strong>教育和研究：</strong>利用文本描述检索教学和研究资料中的相关图片，辅助教学和科研工作。</li>
+        </ul>
+
+        <h2>RAG 的挑战</h2>
+        <p>尽管RAG技术在提高生成文本的准确性和相关性方面显示出巨大潜力，但在实际应用中仍面临诸多挑战：</p>
+        <ul>
+            <li><strong>数据向量化的挑战：</strong>文本数据的复杂性和多样性可能会影响向量化过程的准确性。</li>
+            <li><strong>语义搜索的不准确性：</strong>用户查询和知识库文档块之间的语义相似度计算可能不够精确。</li>
+            <li><strong>LLM的幻觉问题：</strong>大型语言模型在生成回答时可能会产生与事实不符的内容。</li>
+            <li><strong>可扩展性问题：</strong>随着数据量的增长，确保RAG系统高效处理和检索信息变得更加困难。</li>
+            <li><strong>隐私和安全问题：</strong>在处理敏感数据时，确保用户隐私和数据安全是一个重要挑战。</li>
+        </ul>
+    </div>
+</body>
+</html>
